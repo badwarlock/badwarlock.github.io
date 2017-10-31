@@ -16,10 +16,10 @@
 
 <body>
 
-<div class="all-wrap">
+<div id="wrap" class="all-wrap">
 
 	
-		<header class="header">
+		<header id="header" class="header">
 	<div class="container">
 		<div class="header__inner-wrap">
 			<div class="header__logo-wrap">
@@ -29,6 +29,7 @@
 				<div class="header__logo-descr">
 					Благотворительный <br> фонд помощи <br> детям
 				</div>
+				<img src="img/slogan.svg" alt="" class="header__slogan">
 			</div>
 			<div class="header__nav-wrap">
 				<div class="header__top">
@@ -86,12 +87,80 @@
 					</nav>
 					
 
-					<img src="img/slogan.png" alt="" class="header__slogan">
+					<img src="img/slogan.svg" alt="" class="header__slogan">
+					<a href="#" class="btn">Я могу помочь</a>
 
+				</div>
+
+				<div id="show_menu" class="header__menu">
+					<div class="header__menu-inner">
+						<div class="header__menu-line"></div>
+						<div class="header__menu-line"></div>
+						<div class="header__menu-line"></div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	
+	<div id="mobile_menu" class="mobile-menu-wrap">
+		<div class="mobile-menu-wrap__inner">
+			<div class="mobile-menu-wrap__head">
+				<img src="img/slogan.svg" alt="" class="mobile-menu-wrap__slogan">
+			</div>
+
+			
+			<nav class="mobile-nav">
+				<ul class="mobile-nav__list">
+					<li class="mobile-nav__item">
+						<a href="#" class="mobile-nav__link">Как помочь</a>
+					</li>
+					<li class="mobile-nav__item">
+						<a href="#" class="mobile-nav__link">кому помочь</a>
+					</li>
+					<li class="mobile-nav__item">
+						<a href="#" class="mobile-nav__link">кому помогли</a>
+					</li>
+					<li class="mobile-nav__item">
+						<a href="#" class="mobile-nav__link">получить помощь</a>
+					</li>
+				</ul>
+			</nav>
+			
+
+			
+			<nav class="mobile-nav-bottom">
+				<ul class="mobile-nav-bottom__list">
+					<li class="mobile-nav-bottom__item">
+						<a href="#" class="mobile-nav-bottom__link">О фонде</a>
+					</li>
+					<li class="mobile-nav-bottom__item">
+						<a href="#" class="mobile-nav-bottom__link">Отчеты</a>
+					</li>
+					<li class="mobile-nav-bottom__item">
+						<a href="#" class="mobile-nav-bottom__link">Проекты</a>
+					</li>
+					<li class="mobile-nav-bottom__item">
+						<a href="#" class="mobile-nav-bottom__link">Клиники</a>
+					</li>
+					<li class="mobile-nav-bottom__item">
+						<a href="#" class="mobile-nav-bottom__link">Новости</a>
+					</li>
+					<li class="mobile-nav-bottom__item">
+						<a href="#" class="mobile-nav-bottom__link">Контакты</a>
+					</li>
+					<li class="mobile-nav-bottom__item">
+						<a href="#" class="mobile-nav-bottom__link">Реквизиты</a>
+					</li>
+				</ul>
+			</nav>
+			
+
+		</div>
+	</div>
+	
+
 </header>
 	
 
@@ -139,7 +208,13 @@
 					<ul class="program-list">
 						<li class="program-list__item program-list__item_urgent" style="background-image:url(img/program-person-01.jpg);">
 							<span class="program-list__label">срочно!</span>
-							<a href="#" class="program-list__link"></a>
+							<a href="#" class="program-list__link">
+								<div class="program-list__img-wrap">
+									<div class="program-list__img-holder">
+										<img src="img/program-img-mobile-01.jpg" alt="" class="program-list__image">
+									</div>
+								</div>
+							</a>
 							
 							<div class="about-program">
 								<div class="about-program__head">
@@ -162,7 +237,13 @@
 							
 						</li>
 						<li class="program-list__item" style="background-image:url(img/program-person-02.jpg);">
-							<a href="#" class="program-list__link"></a>
+							<a href="#" class="program-list__link">
+								<div class="program-list__img-wrap">
+									<div class="program-list__img-holder">
+										<img src="img/program-img-mobile-02.jpg" alt="" class="program-list__image">
+									</div>
+								</div>
+							</a>
 							
 							<div class="about-program">
 								<div class="about-program__head">
@@ -185,7 +266,13 @@
 							
 						</li>
 						<li class="program-list__item" style="background-image:url(img/program-person-03.jpg);">
-							<a href="#" class="program-list__link"></a>
+							<a href="#" class="program-list__link">
+								<div class="program-list__img-wrap">
+									<div class="program-list__img-holder">
+										<img src="img/program-img-mobile-03.jpg" alt="" class="program-list__image">
+									</div>
+								</div>
+							</a>
 							
 							<div class="about-program">
 								<div class="about-program__head">
@@ -209,7 +296,13 @@
 						</li>
 						<li class="program-list__item program-list__item_urgent" style="background-image:url(img/program-person-04.jpg);">
 							<span class="program-list__label">срочно!</span>
-							<a href="#" class="program-list__link"></a>
+							<a href="#" class="program-list__link">
+								<div class="program-list__img-wrap">
+									<div class="program-list__img-holder">
+										<img src="img/program-img-mobile-04.jpg" alt="" class="program-list__image">
+									</div>
+								</div>
+							</a>
 							
 							<div class="about-program">
 								<div class="about-program__head">
@@ -232,7 +325,13 @@
 							
 						</li>
 						<li class="program-list__item" style="background-image:url(img/program-person-01.jpg);">
-							<a href="#" class="program-list__link"></a>
+							<a href="#" class="program-list__link">
+								<div class="program-list__img-wrap">
+									<div class="program-list__img-holder">
+										<img src="img/program-img-mobile-01.jpg" alt="" class="program-list__image">
+									</div>
+								</div>
+							</a>
 							
 							<div class="about-program">
 								<div class="about-program__head">
@@ -256,7 +355,13 @@
 						</li>
 						<li class="program-list__item program-list__item_urgent" style="background-image:url(img/program-person-03.jpg);">
 							<span class="program-list__label">срочно!</span>
-							<a href="#" class="program-list__link"></a>
+							<a href="#" class="program-list__link">
+								<div class="program-list__img-wrap">
+									<div class="program-list__img-holder">
+										<img src="img/program-img-mobile-03.jpg" alt="" class="program-list__image">
+									</div>
+								</div>
+							</a>
 							
 							<div class="about-program">
 								<div class="about-program__head">
@@ -294,39 +399,39 @@
 							<div class="report-block__content">
 								<div class="report-block__row">
 									<div class="report-block__name">Mitsubishi UFJ FG</div>
-									<div class="report-block__money">2 237</div>
+									<div class="report-block__money">2 237 Р</div>
 								</div>
 								<div class="report-block__row">
 									<div class="report-block__name">ICBC</div>
-									<div class="report-block__money">1 227 764</div>
+									<div class="report-block__money">1 227 764 Р</div>
 								</div>
 								<div class="report-block__row">
 									<div class="report-block__name">Unicredit Group</div>
-									<div class="report-block__money">2 209</div>
+									<div class="report-block__money">2 209 Р</div>
 								</div>
 								<div class="report-block__row">
 									<div class="report-block__name">Standard Chartered</div>
-									<div class="report-block__money">8 084</div>
+									<div class="report-block__money">8 084 Р</div>
 								</div>
 								<div class="report-block__row">
 									<div class="report-block__name">State Street</div>
-									<div class="report-block__money">5 658</div>
+									<div class="report-block__money">5 658 Р</div>
 								</div>
 								<div class="report-block__row">
 									<div class="report-block__name">Dexia Group</div>
-									<div class="report-block__money">145 302</div>
+									<div class="report-block__money">145 302 Р</div>
 								</div>
 								<div class="report-block__row">
 									<div class="report-block__name">Morgan Stanley</div>
-									<div class="report-block__money">9 382</div>
+									<div class="report-block__money">9 382 Р</div>
 								</div>
 								<div class="report-block__row">
 									<div class="report-block__name">Goldman Sachs</div>
-									<div class="report-block__money">1 481</div>
+									<div class="report-block__money">1 481 Р</div>
 								</div>
 								<div class="report-block__row">
 									<div class="report-block__name">Crédit Agricole</div>
-									<div class="report-block__money">8 582</div>
+									<div class="report-block__money">8 582 Р</div>
 								</div>
 							</div>
 
@@ -511,7 +616,7 @@
 
 							</div>
 							<div class="news-block__footer">
-								<a href="#" class="news-block__all-news"></a>
+								<a href="#" class="news-block__all-news">Все новости</a>
 							</div>
 						</div>
 						
@@ -745,10 +850,10 @@
 
 </div>
 
-<link rel="stylesheet" href="css/main.min.css?1509349436">
+<link rel="stylesheet" href="css/main.min.css?1509454592">
 
 
-<script src="scripts/app.min.js?1509349436"></script>
+<script src="scripts/app.min.js?1509454592"></script>
 
 
 </body>
