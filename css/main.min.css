@@ -7545,6 +7545,8 @@ input[type='submit'].styler[disabled] {
   .about-us__col_map {
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
+    -ms-flex-negative: 1;
+        flex-shrink: 1;
     margin-bottom: 25px;
   }
   .about-us__footer {
