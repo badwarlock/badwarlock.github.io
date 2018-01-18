@@ -7469,8 +7469,26 @@ input[type='submit'].styler[disabled] {
 .brands__bottom {
   text-align: center;
 }
+.about-us__columns {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: start;
+      align-items: flex-start;
+}
 .about-us__col_descr {
+  -ms-flex-positive: 20;
+      flex-grow: 20;
   padding-right: 30px;
+}
+.about-us__col_map {
+  -ms-flex-preferred-size: 380px;
+      flex-basis: 380px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
 }
 .about-us__title {
   font-family: 'Days', sans-serif;
