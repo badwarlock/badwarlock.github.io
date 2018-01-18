@@ -7482,11 +7482,13 @@ input[type='submit'].styler[disabled] {
       align-items: flex-start;
 }
 .about-us__col_descr {
+  max-width: 560px;
   -ms-flex-preferred-size: 560px;
       flex-basis: 560px;
   padding-right: 30px;
 }
 .about-us__col_map {
+  max-width: 380px;
   -ms-flex-preferred-size: 380px;
       flex-basis: 380px;
   -ms-flex-negative: 0;
@@ -7735,6 +7737,8 @@ input[type='submit'].styler[disabled] {
 }
 .product-wrap__col:last-child {
   max-width: 225px;
+  -ms-flex-preferred-size: 225px;
+      flex-basis: 225px;
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
       align-self: stretch;
