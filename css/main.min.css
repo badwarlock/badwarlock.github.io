@@ -7480,8 +7480,8 @@ input[type='submit'].styler[disabled] {
       align-items: flex-start;
 }
 .about-us__col_descr {
-  -ms-flex-positive: 20;
-      flex-grow: 20;
+  -ms-flex-preferred-size: 560px;
+      flex-basis: 560px;
   padding-right: 30px;
 }
 .about-us__col_map {
@@ -7530,8 +7530,8 @@ input[type='submit'].styler[disabled] {
     width: 100%;
   }
   .about-us__col_descr {
-    -ms-flex-positive: 0;
-        flex-grow: 0;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
     padding-right: 0;
   }
   .about-us__col_descr .btn {
