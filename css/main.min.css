@@ -4531,14 +4531,6 @@ input[type='submit'].styler[disabled] {
   display: none;
 }
 .sub-nav__list {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: end;
-      justify-content: flex-end;
-  -ms-flex-align: start;
-      align-items: flex-start;
   list-style-type: none;
 }
 .sub-nav__item {
