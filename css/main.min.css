@@ -7532,6 +7532,7 @@ input[type='submit'].styler[disabled] {
   }
   .about-us__col {
     width: 100%;
+    max-width: none;
   }
   .about-us__col_descr {
     -ms-flex-preferred-size: auto;
@@ -7806,9 +7807,7 @@ input[type='submit'].styler[disabled] {
   margin-right: 30px;
 }
 .product__col_info {
-  -ms-flex-preferred-size: 373px;
-      flex-basis: 373px;
-  max-width: 373px;
+  width: calc(100% - 250px + 30px);
   position: relative;
 }
 .product__top {
