@@ -7480,8 +7480,6 @@ input[type='submit'].styler[disabled] {
       align-items: flex-start;
 }
 .about-us__col_descr {
-  -ms-flex-positive: 20;
-      flex-grow: 20;
   padding-right: 30px;
 }
 .about-us__col_map {
