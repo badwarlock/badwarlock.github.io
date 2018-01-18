@@ -10780,6 +10780,8 @@ input[type='submit'].styler[disabled] {
 .vin-about__item {
   position: relative;
   padding: 0 25px;
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
 }
 .vin-about__item:last-child:after {
   display: none;
