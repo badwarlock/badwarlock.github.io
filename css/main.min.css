@@ -9522,6 +9522,9 @@ input[type='submit'].styler[disabled] {
 }
 .product-set__card .product-card__body-col:last-child {
   padding-left: 10px;
+  -ms-flex-preferred-size: 138px;
+      flex-basis: 138px;
+  max-width: 138px;
 }
 .product-set__card .product-card__label {
   display: none;
