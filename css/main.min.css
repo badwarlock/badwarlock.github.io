@@ -7800,11 +7800,15 @@ input[type='submit'].styler[disabled] {
   border-color: transparent;
 }
 .product__col_gallery {
+  -ms-flex-preferred-size: 250px;
+      flex-basis: 250px;
   width: 250px;
   margin-right: 30px;
 }
 .product__col_info {
-  width: 100%;
+  -ms-flex-preferred-size: 373px;
+      flex-basis: 373px;
+  max-width: 373px;
   position: relative;
 }
 .product__top {
