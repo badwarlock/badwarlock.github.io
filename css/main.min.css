@@ -9866,9 +9866,15 @@ input[type='submit'].styler[disabled] {
   }
   .product-set__card-mobile .product-card__body-col:first-child {
     width: 45%;
+    min-width: 0;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
   }
   .product-set__card-mobile .product-card__body-col:last-child {
     width: 55%;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    max-width: none;
   }
   .product-set__card-mobile .product-card__image-wrap {
     height: 150px;
