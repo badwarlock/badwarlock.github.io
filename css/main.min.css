@@ -4531,7 +4531,14 @@ input[type='submit'].styler[disabled] {
   display: none;
 }
 .sub-nav__list {
-  list-style-type: none;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  -ms-flex-align: start;
+      align-items: flex-start;
 }
 .sub-nav__item {
   -ms-flex-preferred-size: auto;
@@ -4539,6 +4546,7 @@ input[type='submit'].styler[disabled] {
   -ms-flex-positive: 1;
       flex-grow: 1;
   list-style-type: none;
+  list-style-position: inside;
 }
 .sub-nav__item:first-child .sub-nav__link:after {
   display: none;
