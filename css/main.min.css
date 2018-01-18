@@ -7469,10 +7469,6 @@ input[type='submit'].styler[disabled] {
 .brands__bottom {
   text-align: center;
 }
-.about-us__columns {
-  display: -ms-flexbox;
-  display: flex;
-}
 .about-us__col_descr {
   padding-right: 30px;
 }
@@ -7491,7 +7487,6 @@ input[type='submit'].styler[disabled] {
   line-height: 1.4;
   color: #797979;
   margin-bottom: 30px;
-  white-space: normal;
 }
 .about-us__map {
   box-shadow: 0px 0px 50px rgba(31, 155, 215, 0);
