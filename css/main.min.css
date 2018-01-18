@@ -9506,6 +9506,9 @@ input[type='submit'].styler[disabled] {
 .product-set_slider .container {
   padding: 0;
 }
+.product-set_slider .product-set__wrap {
+  display: block;
+}
 .product-set_slider .product-set__title {
   padding: 0 20px;
 }
