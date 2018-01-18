@@ -7469,7 +7469,7 @@ input[type='submit'].styler[disabled] {
 .brands__bottom {
   text-align: center;
 }
-.about-us {
+.about-us__columns {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -7480,6 +7480,8 @@ input[type='submit'].styler[disabled] {
       align-items: flex-start;
 }
 .about-us__col_descr {
+  -ms-flex-positive: 20;
+      flex-grow: 20;
   padding-right: 30px;
 }
 .about-us__col_map {
@@ -7518,10 +7520,9 @@ input[type='submit'].styler[disabled] {
 .about-us__footer {
   text-align: center;
   display: none;
-  width: 100%;
 }
 @media screen and (max-width: 768px) {
-  .about-us {
+  .about-us__columns {
     -ms-flex-direction: column;
         flex-direction: column;
   }
@@ -7529,8 +7530,8 @@ input[type='submit'].styler[disabled] {
     width: 100%;
   }
   .about-us__col_descr {
-    -ms-flex-positive: 20;
-        flex-grow: 20;
+    -ms-flex-positive: 0;
+        flex-grow: 0;
     padding-right: 0;
   }
   .about-us__col_descr .btn {
