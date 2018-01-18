@@ -190,6 +190,15 @@ body.loaded {
 .overlay_visible {
   animation: overlayShow 333ms ease both;
 }
+.ie9 img[src$=".svg"] {
+  width: 100%;
+}
+/* 2 */
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  img[src$=".svg"] {
+    width: 100%;
+  }
+}
 @keyframes overlayShow {
   0% {
     opacity: 0;
