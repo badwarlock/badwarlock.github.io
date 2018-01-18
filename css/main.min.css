@@ -7841,14 +7841,8 @@ input[type='submit'].styler[disabled] {
 .product__reviews-link:hover {
   text-decoration: none;
 }
-.product__tools {
-  position: relative;
-}
 .product__features-tools {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
+  margin-left: auto;
 }
 .product__articul {
   font-family: 'Fira Sans', sans-serif;
