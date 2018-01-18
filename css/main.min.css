@@ -8222,6 +8222,7 @@ input[type='submit'].styler[disabled] {
 }
 .gallery-thumbs__slide_video .gallery-thumbs__cover {
   position: relative;
+  display: block;
 }
 .gallery-thumbs__slide_video .gallery-thumbs__cover:after {
   content: '';
