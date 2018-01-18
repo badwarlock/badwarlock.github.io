@@ -7489,6 +7489,7 @@ input[type='submit'].styler[disabled] {
       flex-basis: 380px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+  display: none;
 }
 .about-us__title {
   font-family: 'Days', sans-serif;
