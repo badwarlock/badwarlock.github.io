@@ -9071,9 +9071,7 @@ input[type='submit'].styler[disabled] {
 }
 .reviews-list__answer .reviews-list__col_message {
   padding-left: 220px;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
-  max-width: none;
+  width: 100%;
 }
 .reviews-list__col_stars {
   -ms-flex-preferred-size: 220px;
@@ -9083,9 +9081,7 @@ input[type='submit'].styler[disabled] {
       flex-shrink: 0;
 }
 .reviews-list__col_message {
-  -ms-flex-preferred-size: 678px;
-      flex-basis: 678px;
-  max-width: 678px;
+  width: calc(100% - 220px);
 }
 .reviews-list__author {
   margin-bottom: 23px;
@@ -9157,9 +9153,7 @@ input[type='submit'].styler[disabled] {
     display: none;
   }
   .reviews-list__col_message {
-    -ms-flex-preferred-size: auto;
-        flex-basis: auto;
-    max-width: none;
+    width: 100%;
   }
   .reviews-list__author {
     -ms-flex-pack: start;
