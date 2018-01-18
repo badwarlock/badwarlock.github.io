@@ -4488,6 +4488,9 @@ input[type='submit'].styler[disabled] {
 .sub-menu_fixed .sub-menu__count {
   background: #E5E5E5;
 }
+.sub-menu__list {
+  list-style-type: none;
+}
 .sub-menu__item {
   margin-bottom: 15px;
 }
