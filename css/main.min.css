@@ -9058,14 +9058,7 @@ input[type='submit'].styler[disabled] {
   padding: 20px;
 }
 .reviews-list__answer {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: start;
-      justify-content: flex-start;
-  -ms-flex-align: start;
-      align-items: flex-start;
+  display: block;
   background: #FBFBFB;
   padding: 20px;
   border-radius: 0 0 5px 5px;
