@@ -4199,6 +4199,7 @@ input[type='submit'].styler[disabled] {
       align-items: flex-start;
   position: relative;
   z-index: 5;
+  list-style-type: none;
 }
 .category-menu:hover .category-menu__item:hover .category-menu__link {
   background: #198EC6;
