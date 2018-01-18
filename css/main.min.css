@@ -11106,8 +11106,9 @@ input[type='submit'].styler[disabled] {
   margin-right: 20px;
 }
 .catalog-page__col_content {
-  -ms-flex-positive: 20;
-      flex-grow: 20;
+  -ms-flex-preferred-size: 700px;
+      flex-basis: 700px;
+  max-width: 700px;
   padding-bottom: 30px;
 }
 .catalog-page__head {
