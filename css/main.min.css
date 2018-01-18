@@ -9085,14 +9085,26 @@ input[type='submit'].styler[disabled] {
 .reviews-list__answer .reviews-list__author-name {
   color: #423D3D;
 }
-.reviews-list__answer .reviews-list__col {
+.reviews-list__answer .reviews-list__col_stars {
+  display: none;
+}
+.reviews-list__answer .reviews-list__col_message {
   padding-left: 220px;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  max-width: none;
 }
 .reviews-list__col_stars {
   -ms-flex-preferred-size: 220px;
       flex-basis: 220px;
+  max-width: 220px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
+}
+.reviews-list__col_message {
+  -ms-flex-preferred-size: 678px;
+      flex-basis: 678px;
+  max-width: 678px;
 }
 .reviews-list__author {
   margin-bottom: 23px;
@@ -9162,6 +9174,11 @@ input[type='submit'].styler[disabled] {
   }
   .reviews-list__col_stars {
     display: none;
+  }
+  .reviews-list__col_message {
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
+    max-width: none;
   }
   .reviews-list__author {
     -ms-flex-pack: start;
