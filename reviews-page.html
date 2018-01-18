@@ -1451,36 +1451,376 @@
 		</div>
 
 
+		<div class="inner-page">
+			<div class="container container_mobile">
 
-		<div class="container">
-			<ul class="index-list">
-				<li class="index-list__item">
-					<a href="main.html" class="index-list__link">Главная</a>
-				</li>
-				<li class="index-list__item">
-					<a href="product-page.html" class="index-list__link">Страница товара</a>
-				</li>
-				<li class="index-list__item">
-					<a href="catalog-page.html" class="index-list__link">Каталог</a>
-				</li>
-				<li class="index-list__item">
-					<a href="viewed-products-page.html" class="index-list__link">Просмотренные товары</a>
-				</li>
-				<li class="index-list__item">
-					<a href="reviews-page.html" class="index-list__link">Отзывы</a>
-				</li>
-				<li class="index-list__item">
-					<a href="vin-page.html" class="index-list__link">Запрос по VIN</a>
-				</li>
-				<li class="index-list__item">
-					<a href="shipping-payment-page.html" class="index-list__link">Доставка и оплата</a>
-				</li>
-				<li class="index-list__item">
-					<a href="404-page.html" class="index-list__link">Страница 404</a>
-				</li>
-			</ul>
+				<div class="link-back">
+					<a href="main.html" class="link-back__link">Главная</a>
+				</div>
+
+				<div class="inner-page__title-wrap">
+					<h1 class="inner-page__title">Отзывы</h1>
+					<a href="#" class="inner-page__title-link">Вернуться к покупкам</a>
+				</div>
+			</div>
+
+			<div class="section">
+
+				<div class="tabs tabs_reviews js-tabs">
+					<div class="container">
+						<div class="tabs__reviews-head">
+							<div class="reviews-sort">
+								<div class="reviews-sort__title">Источник:</div>
+								<div class="form-control__field form-control__field_select-cover">
+									<select class="js-form-element">
+										<option>Сайт</option>
+										<option>Яндекс маркет</option>
+										<option>Вконтакте</option>
+										<option>Фламп</option>
+										<option>Ещё отзывы</option>
+										<option>И ещё отзывы</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="tabs__head">
+							<ul class="tabs-menu">
+								<li class="tabs-menu__item tabs-menu__item_current">
+									<a href="#owned_reviews" class="tabs-menu__link"><i class="icon icon-logo"></i>Сайт</a>
+								</li>
+								<li class="tabs-menu__item">
+									<a href="#ya_market_reviews" class="tabs-menu__link"><i class="icon icon-ymarket"></i>Яндекс маркет</a>
+								</li>
+								<li class="tabs-menu__item">
+									<a href="#vk_reviews" class="tabs-menu__link"><i class="icon icon-vk2"></i>Вконтакте</a>
+								</li>
+								<li class="tabs-menu__item">
+									<a href="#flamp_reviews" class="tabs-menu__link"><i class="icon icon-flamp"></i>Фламп</a>
+								</li>
+							</ul>
+						</div>
+						<div class="tabs__content-wrap">
+							<div id="owned_reviews" class="tabs__content">
+								<div class="tabs__section">
+
+									<div class="rating-info">
+										<div class="rating-info__top">
+											<a href="#" data-href="#add_review" class="btn js-popup-link">Написать отзыв</a>
+										</div>
+										<div class="rating-info__col rating-info__col_left">
+											<div class="rating-info__title">Общая оценка:</div>
+
+											<div data-rate="4" class="rating rating_product rating-info__rating">
+												<div class="rating__fill"></div>
+											</div>
+
+											<a href="#" data-href="#add_review" class="btn js-popup-link">Написать отзыв</a>
+										</div>
+										<div class="rating-info__col rating-info__col_center">
+
+											<div class="circle-rating js-circle-rating" data-rating="3.7">
+												<div class="circle-rating__text"></div>
+												<svg class="circle-rating__svg" width="118" height="118" viewBox="0 0 118 118">
+													<circle class="circle-rating__bg" cx="59" cy="59" r="53" stroke="#efefef" stroke-width="11" fill="transparent" />
+													<circle class="circle-rating__value" cx="59" cy="59" r="53" stroke="#1f9bd7" stroke-width="11" fill="transparent" transform="rotate(-90 59 59)" stroke-linecap="round" />
+												</svg>
+											</div>
+
+
+											<div data-rate="4" class="rating rating_product rating-info__rating">
+												<div class="rating__fill"></div>
+											</div>
+
+										</div>
+										<div class="rating-info__col rating-info__col_right">
+
+											<div class="rating-stat">
+												<div class="rating-stat__item">
+													<div class="rating-stat__count">5<i class="rating-stat__star"></i>
+													</div>
+													<div class="rating-stat__chart" data-stat="">
+														<div class="rating-stat__chart-fill" style="width:90%;"></div>
+													</div>
+													<div class="rating-stat__reviews">
+														<a href="#" class="rating-stat__reviews-link">11&nbsp;отзывов</a>
+													</div>
+												</div>
+												<div class="rating-stat__item">
+													<div class="rating-stat__count">4<i class="rating-stat__star"></i>
+													</div>
+													<div class="rating-stat__chart" data-stat="">
+														<div class="rating-stat__chart-fill" style="width:75%;"></div>
+													</div>
+													<div class="rating-stat__reviews">
+														<a href="#" class="rating-stat__reviews-link">5&nbsp;отзывов</a>
+													</div>
+												</div>
+												<div class="rating-stat__item">
+													<div class="rating-stat__count">3<i class="rating-stat__star"></i>
+													</div>
+													<div class="rating-stat__chart" data-stat="">
+														<div class="rating-stat__chart-fill" style="width:35%;"></div>
+													</div>
+													<div class="rating-stat__reviews">
+														<a href="#" class="rating-stat__reviews-link">2&nbsp;отзыва</a>
+													</div>
+												</div>
+												<div class="rating-stat__item">
+													<div class="rating-stat__count">2<i class="rating-stat__star"></i>
+													</div>
+													<div class="rating-stat__chart" data-stat="">
+														<div class="rating-stat__chart-fill" style="width:0;"></div>
+													</div>
+													<div class="rating-stat__reviews">0&nbsp;отзывов</div>
+												</div>
+												<div class="rating-stat__item">
+													<div class="rating-stat__count">1<i class="rating-stat__star"></i>
+													</div>
+													<div class="rating-stat__chart" data-stat="">
+														<div class="rating-stat__chart-fill" style="width:15%;"></div>
+													</div>
+													<div class="rating-stat__reviews">
+														<a href="#" class="rating-stat__reviews-link">1&nbsp;отзыв</a>
+													</div>
+												</div>
+											</div>
+
+										</div>
+									</div>
+
+
+									<div class="reviews-list">
+										<div class="reviews-list__section">
+											<div class="reviews-list__question">
+												<div class="reviews-list__col reviews-list__col_stars">
+
+													<div data-rate="4" class="rating rating_product rating-info__rating">
+														<div class="rating__fill"></div>
+													</div>
+
+												</div>
+												<div class="reviews-list__col">
+													<div class="reviews-list__author">
+
+														<div data-rate="4" class="rating rating_author">
+															<div class="rating__fill"></div>
+														</div>
+
+														<div class="reviews-list__author-holder">
+															<i class="icon icon-user"></i>
+															<span class="reviews-list__author-name">Геннадий</span>
+														</div>
+
+														<div class="vote-menu">
+															<div class="vote-menu__text">Полезно?</div>
+															<button class="vote-menu__btn vote-menu__btn_like">
+																<i class="icon icon-like"></i>
+																<span class="vote-menu__count">3</span>
+															</button>
+															<button class="vote-menu__btn vote-menu__btn_dislike">
+																<i class="icon icon-dislike"></i>
+																<span class="vote-menu__count">22</span>
+															</button>
+														</div>
+
+													</div>
+													<div class="reviews-list__content">
+														<div class="reviews-list__descr">
+															<div class="reviews-list__title-descr">Достоинства:</div>
+
+															<div class="info-box">
+																<p>Ничто так ясно не подтверждает этого, как описательная поэзия и в особенности романы прошедшего и нашего века. В следующий раз я пришел на бойню вовремя. Это было в пятницу перед Троицыным дном. Был жаркий июньский день. Запах клея, крови
+																	был еще сильнее и заметнее утром, чем в первое мое посещение. Работа была в самом разгаре. Вся пыльная площадка была полна скота, и скот был загнан во все загоны камор.</p>
+															</div>
+
+														</div>
+														<div class="reviews-list__descr">
+															<div class="reviews-list__title-descr">Недостатки:</div>
+
+															<div class="info-box">
+																<p>Выхватываются несколько восклицаний: «Ай! ай!» — наконец все выпираются, и комната остается пуста. Там купцы жаловались вашему превосходительству. Честью уверяю, и наполовину нет того, что они говорят. Они сами обманывают и обмеривают
+																	народ. Унтер-офицерша налгала вам, будто бы я её высек; она врет, ей-богу, врет. Она сама себя высекла.</p>
+															</div>
+
+														</div>
+														<div class="reviews-list__descr">
+															<div class="reviews-list__title-descr">Комментарий:</div>
+
+															<div class="info-box">
+																<p>Посмотрите на то, чем торгуют люди, пройдите по городу и досмотрите, что продается: наряды и предметы для объядения. Они с полчаса как кончили работу, так что в этот день мы могли сидеть только пустые каморы. Несмотря на открытые с двух
+																	сторон ворота, в каморе был тяжелый запах теплой крови, пол был весь коричневый, глянцовитый и в углублениях пола стояла сгущающаяся черная кровь.</p>
+															</div>
+
+														</div>
+														<div class="reviews-list__bottom">
+															<span class="reviews-list__date">23 июня 2017 г. 18:00</span>
+															<span class="reviews-list__city">г. Екатеринбург</span>
+														</div>
+
+														<div class="vote-menu vote-menu_mobile">
+															<div class="vote-menu__text">Полезно?</div>
+															<button class="vote-menu__btn vote-menu__btn_like">
+																<i class="icon icon-like"></i>
+																<span class="vote-menu__count">3</span>
+															</button>
+															<button class="vote-menu__btn vote-menu__btn_dislike">
+																<i class="icon icon-dislike"></i>
+																<span class="vote-menu__count">22</span>
+															</button>
+														</div>
+
+													</div>
+												</div>
+											</div>
+											<div class="reviews-list__answer">
+												<div class="reviews-list__col">
+													<div class="reviews-list__author">
+														<div class="reviews-list__author-holder">
+															<span class="reviews-list__author-name">Ответ магазина:</span>
+														</div>
+													</div>
+													<div class="reviews-list__content">
+														<div class="reviews-list__descr">
+
+															<div class="info-box">
+																<p>Всех обитательниц этой Камеры было пятнадцать: двенадцать женщин и трое детей. Предводитель был либеральный человек, и он вместе с некоторыми единомышленниками боролся против наступившей при Александре III реакции и весь был поглощен этой
+																	борьбой и ничего не знал о своей несчастной семейной жизни.</p>
+															</div>
+
+														</div>
+														<div class="reviews-list__bottom">
+															<span class="reviews-list__date">23 июня 2017 г. 18:00</span>
+															<span class="reviews-list__city">г. Екатеринбург</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="reviews-list__section">
+											<div class="reviews-list__question">
+												<div class="reviews-list__col reviews-list__col_stars">
+
+													<div data-rate="4" class="rating rating_product rating-info__rating">
+														<div class="rating__fill"></div>
+													</div>
+
+												</div>
+												<div class="reviews-list__col">
+													<div class="reviews-list__author">
+
+														<div data-rate="4" class="rating rating_author">
+															<div class="rating__fill"></div>
+														</div>
+
+														<div class="reviews-list__author-holder">
+															<i class="icon icon-user"></i>
+															<span class="reviews-list__author-name">Елизавета</span>
+														</div>
+
+														<div class="vote-menu">
+															<div class="vote-menu__text">Полезно?</div>
+															<button class="vote-menu__btn vote-menu__btn_like">
+																<i class="icon icon-like"></i>
+																<span class="vote-menu__count">12</span>
+															</button>
+															<button class="vote-menu__btn vote-menu__btn_dislike">
+																<i class="icon icon-dislike"></i>
+																<span class="vote-menu__count">5</span>
+															</button>
+														</div>
+
+													</div>
+													<div class="reviews-list__content">
+														<div class="reviews-list__descr">
+															<div class="reviews-list__title-descr">Достоинства:</div>
+
+															<div class="info-box">
+																<p>Речь зашла об одном из соседних помещиков. «Дрянь, аристократишко», — равнодушно заметил Базаров, который встречался с ним в Петербурге.</p>
+															</div>
+
+														</div>
+														<div class="reviews-list__descr">
+															<div class="reviews-list__title-descr">Недостатки:</div>
+
+															<div class="info-box">
+																<p>Но только что он вступил в столовую (еще через одну комнату от гостиной), с ним в дверях почти столкнулась выходившая Аглая. Она была одна. Пристальный и беспокойный ее взгляд нетерпеливо устремился на Аглаю. Обе сели поодаль одна от другой:
+																	Аглая на диване в углу комнаты, Настасья Филипповна у окна. Князь и Рогожин не садились, да их и не пригласили садиться. Князь с недоумением и как бы с болью опять поглядел на Рогожина, но тот улыбался всё прежнею своею улыбкой. Молчание
+																	продолжалось еще несколько мгновений.</p>
+															</div>
+
+														</div>
+														<div class="reviews-list__descr">
+															<div class="reviews-list__title-descr">Комментарий:</div>
+
+															<div class="info-box">
+																<p>Судья, попечитель богоугодных заведений, смотритель училищ и почтмейстер уходят и в дверях сталкиваются с возвращающимся квартальным.</p>
+															</div>
+
+														</div>
+														<div class="reviews-list__bottom">
+															<span class="reviews-list__date">23 июня 2017 г. 18:00</span>
+															<span class="reviews-list__city">г. Екатеринбург</span>
+														</div>
+
+														<div class="vote-menu vote-menu_mobile">
+															<div class="vote-menu__text">Полезно?</div>
+															<button class="vote-menu__btn vote-menu__btn_like">
+																<i class="icon icon-like"></i>
+																<span class="vote-menu__count">12</span>
+															</button>
+															<button class="vote-menu__btn vote-menu__btn_dislike">
+																<i class="icon icon-dislike"></i>
+																<span class="vote-menu__count">5</span>
+															</button>
+														</div>
+
+													</div>
+												</div>
+											</div>
+											<div class="reviews-list__answer">
+												<div class="reviews-list__col">
+													<div class="reviews-list__author">
+														<div class="reviews-list__author-holder">
+															<span class="reviews-list__author-name">Ответ магазина:</span>
+														</div>
+													</div>
+													<div class="reviews-list__content">
+														<div class="reviews-list__descr">
+
+															<div class="info-box">
+																<p>Речь зашла об одном из соседних помещиков. «Дрянь, аристократишко», — равнодушно заметил Базаров, который встречался с ним в Петербург. За дверьми послышался шорох, как будто хлопали туфли; известка посыпалась с печи на пол. «Кто это?»
+																	— повторил он слабым голосом.</p>
+															</div>
+
+														</div>
+														<div class="reviews-list__bottom">
+															<span class="reviews-list__date">23 июня 2017 г. 18:00</span>
+															<span class="reviews-list__city">г. Екатеринбург</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div id="ya_market_reviews" class="tabs__content">ya_market_reviews</div>
+							<div id="vk_reviews" class="tabs__content">vk_reviews</div>
+							<div id="flamp_reviews" class="tabs__content">flamp_reviews</div>
+						</div>
+						<div class="tabs__bottom tabs__bottom_visible">
+							<a href="#" class="btn btn_icon btn_gray">
+								<span class="btn__text">Показать все</span>
+								<i class="icon icon-arrow-down"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
 		</div>
-
 
 
 		<div class="footer">
@@ -1648,6 +1988,7 @@
 		</div>
 
 	</div>
+
 
 
 	<div id="gallery" class="popup popup_full hidden-element">
@@ -1834,9 +2175,88 @@
 
 
 
-	<link rel="stylesheet" href="css/main.min.css?1516255488">
+	<div id="add_review" class="popup hidden-element">
+		<button title="Закрыть" class="popup__close js-popup-close">
+			<i class="icon icon-close"></i>
+		</button>
+		<div class="popup__content">
+			<div class="popup__title">Отзыв</div>
 
-	<script src="scripts/app.min.js?1516255488"></script>
+			<form class="form-control form-control_in-popup">
+				<div class="form-control__section">
+					<div class="form-control__section-title">Оценка:</div>
+					<div class="form-control__content">
+						<div class="form-control__field">
+
+							<select id="rewiew_rating">
+								<option value="1">Ужасно</option>
+								<option value="2">Плохо</option>
+								<option value="3">Нормально</option>
+								<option value="4">Хорошо</option>
+								<option value="5">Отлично!</option>
+							</select>
+
+						</div>
+					</div>
+				</div>
+				<div class="form-control__section">
+					<div class="form-control__section-title">Ваше имя:</div>
+					<div class="form-control__content">
+						<div class="form-control__field">
+							<input type="text" class="form-control__input" placeholder="Введите имя">
+						</div>
+					</div>
+				</div>
+				<div class="form-control__section">
+					<div class="form-control__section-title">Достоинства:</div>
+					<div class="form-control__content">
+						<div class="form-control__field">
+							<textarea class="form-control__textarea" placeholder="Что вам понравилось"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="form-control__section">
+					<div class="form-control__section-title">Недостатки:</div>
+					<div class="form-control__content">
+						<div class="form-control__field">
+							<textarea class="form-control__textarea" placeholder="Что не оправдало ваших ожиданий"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="form-control__section">
+					<div class="form-control__section-title">Комментарий:</div>
+					<div class="form-control__content">
+						<div class="form-control__field">
+							<textarea class="form-control__textarea" placeholder="Другие впечатления о товаре"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="form-control__section form-control__section_mb30">
+					<div class="form-control__field form-control__field">
+						<label class="form-control__label form-control__label_small-text">
+							<span class="form-control__checkbox-cover">
+								<input type="checkbox" class="form-control__checkbox js-form-element">
+							</span>
+							<span class="form-control__label-text">Согласен с обработкой персональных данных в соответсвии с <a href="#" target="_blank" class="form-control__label-link">Условиями</a></span>
+						</label>
+					</div>
+				</div>
+				<div class="form-control__section">
+					<div class="form-control__content">
+						<div class="form-control__field form-control__field_centered">
+							<button type="submit" class="btn">Отправить</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+
+
+
+	<link rel="stylesheet" href="css/main.min.css?1516255489">
+
+	<script src="scripts/app.min.js?1516255489"></script>
 
 </body>
 
