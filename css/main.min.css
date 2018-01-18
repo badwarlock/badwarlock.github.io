@@ -4540,6 +4540,7 @@ input[type='submit'].styler[disabled] {
   -ms-flex-align: start;
       align-items: flex-start;
   list-style-image: url(data:0);
+  overflow: hidden;
 }
 .sub-nav__item {
   -ms-flex-preferred-size: auto;
@@ -4547,6 +4548,7 @@ input[type='submit'].styler[disabled] {
   -ms-flex-positive: 1;
       flex-grow: 1;
   list-style-image: url(data:0);
+  overflow: hidden;
 }
 .sub-nav__item:first-child .sub-nav__link:after {
   display: none;
