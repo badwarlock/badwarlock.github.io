@@ -4540,13 +4540,13 @@ input[type='submit'].styler[disabled] {
   -ms-flex-align: start;
       align-items: flex-start;
   list-style-type: none;
-  list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
 }
 .sub-nav__item {
   -ms-flex-preferred-size: auto;
       flex-basis: auto;
   -ms-flex-positive: 1;
       flex-grow: 1;
+  list-style-type: none;
 }
 .sub-nav__item:first-child .sub-nav__link:after {
   display: none;
