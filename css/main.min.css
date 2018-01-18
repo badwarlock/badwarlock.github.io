@@ -8428,7 +8428,6 @@ input[type='submit'].styler[disabled] {
 }
 .delivery-block__logo {
   max-height: 50px;
-  max-width: 100%;
   vertical-align: middle;
 }
 .delivery-block__link {
