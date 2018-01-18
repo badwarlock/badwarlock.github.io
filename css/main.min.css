@@ -7746,7 +7746,8 @@ input[type='submit'].styler[disabled] {
 }
 @media screen and (max-width: 980px) {
   .product-wrap {
-    display: block;
+    -ms-flex-direction: column;
+        flex-direction: column;
   }
   .product-wrap__col:first-child {
     max-width: none;
@@ -7759,6 +7760,8 @@ input[type='submit'].styler[disabled] {
   .product-wrap__col:last-child {
     max-width: none;
     width: 100%;
+    -ms-flex-preferred-size: auto;
+        flex-basis: auto;
     -ms-flex-item-align: start;
         align-self: flex-start;
   }
@@ -7821,7 +7824,6 @@ input[type='submit'].styler[disabled] {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 24px;
-  padding-right: 95px;
 }
 .product__reviews {
   padding: 5px 0;
@@ -7838,10 +7840,7 @@ input[type='submit'].styler[disabled] {
   text-decoration: none;
 }
 .product__features-tools {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
+  margin-left: auto;
 }
 .product__articul {
   font-family: 'Fira Sans', sans-serif;
