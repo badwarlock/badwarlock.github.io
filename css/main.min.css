@@ -9532,6 +9532,8 @@ input[type='submit'].styler[disabled] {
 }
 .product-set__card .product-card__body-col:first-child {
   min-width: 50px;
+  -ms-flex-preferred-size: 50px;
+      flex-basis: 50px;
 }
 .product-set__card .product-card__body-col:last-child {
   padding-left: 10px;
