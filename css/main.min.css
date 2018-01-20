@@ -4633,6 +4633,7 @@ input[type='submit'].styler[disabled] {
   position: relative;
 }
 .header__main.scroll-to-fixed-fixed {
+  padding: 0;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
 }
 .header__main.scroll-to-fixed-fixed .header__main-inner {
