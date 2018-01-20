@@ -7467,15 +7467,11 @@ input[type='submit'].styler[disabled] {
       align-items: flex-start;
 }
 .about-us__col_descr {
-  max-width: 560px;
-  -ms-flex-preferred-size: 560px;
-      flex-basis: 560px;
   padding-right: 30px;
+  width: calc(100% - 380px - 30px);
 }
 .about-us__col_map {
-  max-width: 380px;
-  -ms-flex-preferred-size: 380px;
-      flex-basis: 380px;
+  width: 380px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
@@ -7517,17 +7513,16 @@ input[type='submit'].styler[disabled] {
   }
   .about-us__col {
     width: 100%;
-    max-width: none;
   }
   .about-us__col_descr {
-    -ms-flex-preferred-size: auto;
-        flex-basis: auto;
+    width: 100%;
     padding-right: 0;
   }
   .about-us__col_descr .btn {
     display: none;
   }
   .about-us__col_map {
+    width: 100%;
     -ms-flex-preferred-size: auto;
         flex-basis: auto;
     -ms-flex-negative: 1;
