@@ -259,8 +259,7 @@ body.loaded {
       flex-shrink: 0;
 }
 .form-control__content {
-  -ms-flex-preferred-size: 570px;
-      flex-basis: 570px;
+  width: calc(100% - 160px);
 }
 .form-control__content_field .form-control__field {
   max-width: 280px;
@@ -505,8 +504,6 @@ body.loaded {
     padding-top: 0;
   }
   .form-control__content {
-    -ms-flex-preferred-size: auto;
-        flex-basis: auto;
     width: 100%;
   }
   .form-control__content_field .form-control__field {
@@ -7836,7 +7833,6 @@ input[type='submit'].styler[disabled] {
       flex-grow: 20;
 }
 .product__reviews {
-  display: none;
   padding: 5px 0;
 }
 .product__reviews-link {
