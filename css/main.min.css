@@ -6043,7 +6043,6 @@ input[type='submit'].styler[disabled] {
   }
 }
 .catalog-nav {
-  display: none;
   position: absolute;
   top: 100%;
   background: white;
