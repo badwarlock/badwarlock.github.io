@@ -4685,6 +4685,7 @@ input[type='submit'].styler[disabled] {
   margin-right: 20px;
   position: relative;
   display: none;
+  z-index: 10000000;
 }
 .header__hamburger {
   width: 60px;
