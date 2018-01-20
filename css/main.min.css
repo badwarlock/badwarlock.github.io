@@ -4685,7 +4685,6 @@ input[type='submit'].styler[disabled] {
   margin-right: 20px;
   position: relative;
   display: none;
-  z-index: 10000000;
 }
 .header__hamburger {
   width: 60px;
@@ -6043,6 +6042,7 @@ input[type='submit'].styler[disabled] {
   }
 }
 .catalog-nav {
+  display: none;
   position: absolute;
   top: 100%;
   background: white;
