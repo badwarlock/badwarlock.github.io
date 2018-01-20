@@ -4633,6 +4633,7 @@ input[type='submit'].styler[disabled] {
 }
 .header__main.scroll-to-fixed-fixed {
   position: fixed;
+  z-index: 100000000 !important;
   width: 100%;
   top: 0;
   left: 0;
