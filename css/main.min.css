@@ -4770,9 +4770,6 @@ input[type='submit'].styler[disabled] {
     -ms-flex-align: center;
         align-items: center;
   }
-  .header__main.scroll-to-fixed-fixed .header__hamburger {
-    display: block;
-  }
   .header__main.scroll-to-fixed-fixed .header__logo-wrap {
     margin-right: 20px;
   }
@@ -4795,7 +4792,6 @@ input[type='submit'].styler[disabled] {
     display: none;
   }
   .header__menu {
-    display: block;
     margin-right: 0;
   }
 }
@@ -4823,7 +4819,7 @@ input[type='submit'].styler[disabled] {
     -ms-flex-align: center;
         align-items: center;
   }
-  .header__hamburger {
+  .header__menu {
     display: block;
   }
   .header__logo-wrap {
@@ -6473,7 +6469,9 @@ input[type='submit'].styler[disabled] {
   width: 155px;
   height: 24px;
   background-size: 32px;
-  margin-right: 10px;
+  margin-right: 6px;
+  display: inline-block;
+  vertical-align: top;
 }
 .rating_product .rating__fill {
   background-size: 32px;
@@ -7795,20 +7793,26 @@ input[type='submit'].styler[disabled] {
   position: relative;
 }
 .product__top {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: start;
-      justify-content: flex-start;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   margin-bottom: 24px;
+}
+.product__rate {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(100% - 90px);
+  margin-right: -4px;
+}
+.product__tools {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  margin-right: -4px;
+  width: 90px;
+  height: 30px;
 }
 .product__reviews {
   padding: 5px 0;
+  display: inline-block;
+  vertical-align: top;
 }
 .product__reviews-link {
   font-family: 'Fira Sans', sans-serif;
@@ -7822,7 +7826,10 @@ input[type='submit'].styler[disabled] {
   text-decoration: none;
 }
 .product__features-tools {
-  margin-left: auto;
+  position: absolute;
+  top: -1px;
+  right: -8px;
+  z-index: 2;
 }
 .product__articul {
   font-family: 'Fira Sans', sans-serif;
