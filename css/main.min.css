@@ -243,8 +243,8 @@ body.loaded {
       align-items: center;
 }
 .form-control__section_heading .form-control__content {
-  -ms-flex-preferred-size: 460px;
-      flex-basis: 460px;
+  width: calc(100% - 290px + 30px);
+  max-width: 460px;
 }
 .form-control__section:last-child {
   margin-bottom: 0;
@@ -260,6 +260,7 @@ body.loaded {
 }
 .form-control__content {
   width: calc(100% - 160px);
+  max-width: 570px;
 }
 .form-control__content_field .form-control__field {
   max-width: 280px;
@@ -452,9 +453,8 @@ body.loaded {
     margin-bottom: 25px;
   }
   .form-control__section_heading .form-control__content {
-    -ms-flex-preferred-size: auto;
-        flex-basis: auto;
     width: 100%;
+    max-width: none;
   }
   .form-control__select-group {
     -ms-flex-direction: column;
