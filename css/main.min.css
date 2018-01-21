@@ -10056,11 +10056,10 @@ input[type='submit'].styler[disabled] {
     border-bottom: 0;
   }
   .product-set__card-mobile .product-card__body-col:first-child {
-    width: auto;
-    min-width: 150px;
+    width: 150px;
   }
   .product-set__card-mobile .product-card__body-col:last-child {
-    width: auto;
+    width: calc(100% - 150px);
   }
 }
 @media screen and (max-width: 400px) {
