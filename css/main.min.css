@@ -458,6 +458,16 @@ This must be run when you have at least 2 sprites.
 .section_timeline {
   padding: 70px 0 135px;
 }
+.section_partner {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 65px 0 58px;
+}
+.section_red {
+  padding: 0;
+  background-color: #ff2524;
+}
 .section__title {
   color: #000000;
   font-family: "HelveticaNeueCyr", Helvetica, Arial, sans-serif;
@@ -1007,6 +1017,197 @@ This must be run when you have at least 2 sprites.
   font-family: "HelveticaNeueCyr", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.33;
+}
+.become-partner {
+  max-width: 705px;
+  margin: 0 auto;
+}
+.become-partner__title {
+  color: #000000;
+  font-family: "HelveticaNeueCyr", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 33px;
+}
+.become-partner__btn-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.become-partner__btn-wrap .btn {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: calc((100% - (14px * 4)) / 2);
+  margin: 12px 14px;
+  padding: 9px 25px;
+  min-height: 64px;
+}
+.boosters {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.boosters__col {
+  padding: 56px 0;
+}
+.boosters__col_left {
+  width: 45%;
+  background: url("../img/arrows.jpg") no-repeat center right;
+  background-size: auto;
+}
+.boosters__col_right {
+  padding-left: 20px;
+  width: 55%;
+}
+.boosters__title {
+  max-width: 240px;
+  color: #ffffff;
+  font-family: "HelveticaNeueCyr", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  line-height: 1.43;
+  text-transform: uppercase;
+}
+.boosters-list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+}
+.boosters-list__item {
+  margin-right: 45px;
+}
+.boosters-list__item:last-child {
+  margin-right: 0;
+}
+.boosters-list__link {
+  text-decoration: none;
+  display: block;
+}
+.boosters-list__img-wrap {
+  width: 120px;
+  height: 120px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 22px;
+}
+.boosters-list__image {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
+}
+.boosters-list__name {
+  text-align: center;
+  color: #ffffff;
+  font-family: "HelveticaNeueCyr", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.33;
+}
+.watch-video {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  -ms-flex-direction: row;
+      flex-direction: row;
+}
+.watch-video__col_about {
+  padding-left: 85px;
+}
+.watch-video__descr {
+  color: #000000;
+  font-family: "HelveticaNeueCyr", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+.video-box {
+  width: 451px;
+  height: 379px;
+  background: url("../img/comp.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 21px;
+}
+.video-box__holder {
+  width: 400px;
+  height: 224px;
+  background: #000000;
+  margin: 0 auto;
+}
+.video-box__holder > iframe {
+  width: 100%;
+  height: 100%;
+}
+.components__item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 5px;
+  color: #000000;
+  font-family: "HelveticaNeueCyr", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.13;
+}
+.components__item:last-child {
+  margin-bottom: 0;
+}
+.components__icon-wrap {
+  width: 32px;
+  height: 36px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-right: 15px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+.components__icon {
+  vertical-align: middle;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 /*# sourceMappingURL=main.min.css.map */
