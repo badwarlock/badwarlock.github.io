@@ -296,6 +296,27 @@ body {
   font-size: 1.125rem;
   color: #000000;
 }
+.btn_white {
+  border-color: white;
+  border-width: 2px;
+  background-color: transparent;
+  border-radius: 32px;
+  padding: 17px 25px 15px;
+  min-width: 278px;
+}
+.btn_white .btn__text {
+  color: white;
+  font-size: 1.5rem;
+}
+.btn_white:hover,
+.btn_white:focus {
+  background-color: white;
+  border-color: white;
+}
+.btn_white:hover .btn__text,
+.btn_white:focus .btn__text {
+  color: #da251d;
+}
 .btn .icon {
   display: block;
 }
@@ -456,6 +477,7 @@ This must be run when you have at least 2 sprites.
   color: white;
 }
 .section_timeline {
+  position: relative;
   padding: 70px 0 135px;
 }
 .section_partner {
@@ -465,8 +487,16 @@ This must be run when you have at least 2 sprites.
   padding: 65px 0 58px;
 }
 .section_red {
+  overflow-x: hidden;
   padding: 0;
-  background-color: #ff2524;
+  background: linear-gradient(to bottom, #f31d20 -5%, #ff2424 60%);
+}
+.section_certificates {
+  padding: 70px 0;
+}
+.section_features {
+  padding: 120px 0 185px;
+  overflow-x: hidden;
 }
 .section__title {
   color: #000000;
@@ -654,6 +684,9 @@ This must be run when you have at least 2 sprites.
 .product__image-wrap {
   position: relative;
 }
+.product__image-wrap:hover .product__image {
+  opacity: 0.8;
+}
 .product__quick-view {
   display: block;
   position: absolute;
@@ -669,7 +702,7 @@ This must be run when you have at least 2 sprites.
   background: #da251e;
   transform: translateY(50%);
   opacity: 0;
-  transition: transform .2s ease, opacity .2s ease;
+  transition: transform 0.2s ease, opacity 0.2s ease, background-color 0.2s ease;
 }
 .product__quick-view:after {
   content: "";
@@ -692,6 +725,7 @@ This must be run when you have at least 2 sprites.
 .product__image {
   vertical-align: middle;
   max-width: 100%;
+  transition: opacity .2s ease;
 }
 .product__body {
   text-align: center;
@@ -1055,7 +1089,7 @@ This must be run when you have at least 2 sprites.
   padding: 9px 25px;
   min-height: 64px;
 }
-.boosters {
+.boosters__inner-wrap {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -1069,9 +1103,19 @@ This must be run when you have at least 2 sprites.
   padding: 56px 0;
 }
 .boosters__col_left {
+  position: relative;
   width: 45%;
-  background: url("../img/arrows.jpg") no-repeat center right;
+  background: #ff2524 url("../img/arrows.jpg") no-repeat center right;
   background-size: auto;
+}
+.boosters__col_left:before {
+  content: '';
+  width: 1000%;
+  height: 100%;
+  right: 100%;
+  top: 0;
+  background-color: #ff2524;
+  position: absolute;
 }
 .boosters__col_right {
   padding-left: 20px;
@@ -1144,7 +1188,11 @@ This must be run when you have at least 2 sprites.
   -ms-flex-direction: row;
       flex-direction: row;
 }
+.watch-video__col_video {
+  width: 451px;
+}
 .watch-video__col_about {
+  width: calc(100% - 451px);
   padding-left: 85px;
 }
 .watch-video__descr {
@@ -1208,6 +1256,162 @@ This must be run when you have at least 2 sprites.
   vertical-align: middle;
   max-width: 100%;
   max-height: 100%;
+}
+.certificates {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: start;
+      align-items: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.certificates__col {
+  width: 50%;
+}
+.certificates__col_about {
+  padding-right: 30px;
+}
+.certificates__col_img {
+  padding-left: 30px;
+}
+.certificates__image {
+  vertical-align: middle;
+  max-width: 100%;
+}
+.certificates-info__block {
+  color: #000000;
+  font-family: "HelveticaNeueCyr", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.25;
+  margin-bottom: 30px;
+}
+.certificates-info__block:last-child {
+  margin-bottom: 0;
+}
+.certificates-info__block_first {
+  font-family: "HelveticaNeueCyr", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+.certificates-info__title {
+  color: #000000;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-family: "HelveticaNeueCyr", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  margin-bottom: 3px;
+}
+.question-block {
+  background-color: #da251d;
+  width: 100%;
+  max-width: 1170px;
+  padding: 24px 60px;
+  position: absolute;
+  bottom: -56px;
+  left: 50%;
+  margin-left: -585px;
+}
+.question-block__inner-wrap {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.question-block__title {
+  -ms-flex-positive: 20;
+      flex-grow: 20;
+  padding-top: 3px;
+  padding-right: 20px;
+  color: #ffffff;
+  font-family: "HelveticaNeueCyr", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.875rem;
+  line-height: 1.35;
+  text-transform: uppercase;
+}
+.features {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.features__col {
+  width: 50%;
+}
+.features__col_img {
+  padding-right: 15px;
+}
+.features__col_about {
+  padding-left: 130px;
+}
+.features__image-wrap {
+  padding: 45px 0;
+  position: relative;
+  text-align: right;
+}
+.features__image-wrap:before {
+  content: "";
+  width: 1000%;
+  height: 100%;
+  background-color: #f6f6f6;
+  position: absolute;
+  top: 0;
+  right: 30%;
+}
+.features__image {
+  vertical-align: middle;
+  max-width: 370px;
+  position: relative;
+  z-index: 1;
+}
+.features__list {
+  max-width: 310px;
+  margin-top: 65px;
+}
+.features__list-info {
+  position: relative;
+  color: #2a2a28;
+  font-family: "HelveticaNeueCyr", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin-bottom: 24px;
+}
+.features__list-info:last-child {
+  margin-bottom: 0;
+}
+.features__line {
+  width: calc(100% - 25px);
+  right: calc(100% + 10px);
+  top: 50%;
+  position: absolute;
+  height: 1px;
+  background-color: #ff262b;
+  z-index: 2;
+}
+.features__line:before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ff262b;
+  position: absolute;
+  left: -2px;
+  top: -2px;
 }
 
 /*# sourceMappingURL=main.min.css.map */
