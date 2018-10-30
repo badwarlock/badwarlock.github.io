@@ -1,1 +1,1037 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><title>vue.local</title><link href=/static/css/app.f6f5690be6a4ca781bd1dc728d8b9645.css rel=stylesheet></head><body><div id=app></div><script type=text/javascript src=/static/js/manifest.2ae2e69a05c33dfc65f8.js></script><script type=text/javascript src=/static/js/vendor.9e23f8d1685ccd2ef6c3.js></script><script type=text/javascript src=/static/js/app.c46d02554b92b1e4dddd.js></script></body></html>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>New Site Title</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="icon" type="image/icon" href="/favicon.ico">
+
+	<style>
+		body {
+		      opacity: 0;
+		    }
+	</style>
+</head>
+
+<body>
+
+	<div class="all-wrap">
+
+
+		<header class="header">
+			<div class="header__container container container_wide">
+				<div class="header__col header__col_left">
+					<a href="#" class="header__logo-link">
+						<img src="img/logo-white.svg" alt="" class="header__logo">
+						<div class="header__logo-title">Деятельность по Организации Бизнеса и Развитию Отношений</div>
+					</a>
+				</div>
+				<div class="header__col header__col_right">
+					<div class="header__contacts">
+						<a href="tel:+79603689644" class="header__phone">
+          +7 (960) <span class="header__phone header__phone_bold">368-96-44</span>
+        </a>
+						<a href="#call_back" class="btn btn_icon btn_white js-popup-link">
+							<i class="icon icon-phone"></i>
+							<span class="btn__text">Позвоните мне!</span>
+						</a>
+					</div>
+					<div class="header__hamburger-wrap">
+						<div id="menu_open" class="hamburger">
+							<div class="hamburger__text">Меню</div>
+							<div class="hamburger__icon-wrap">
+								<div class="hamburger__icon-line"></div>
+								<div class="hamburger__icon-line"></div>
+								<div class="hamburger__icon-line"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+
+
+
+		<div class="hero js-scene js-screen-video-bg">
+			<div class="hero__bg-wrap">
+				<picture class="hero__bg-img-wrap js-screen-video-bg-poster">
+					<source srcset="img/hero-poster-desktop.jpg" media="(min-width: 1000px)">
+						<source srcset="img/hero-poster-tablet.jpg" media="(min-width: 376px)">
+							<img src="img/hero-poster-mobile.jpg" alt="" class="hero__bg-img">
+				</picture>
+
+				<video loop="loop" muted="muted" autoplay="autoplay" poster="img/hero-video-poster.jpg" class="video-bg js-screen-video-bg-player">
+					<source src="videos/hero.mp4" type="video/mp4">
+				</video>
+			</div>
+			<div class="hero__content">
+				<div class="hero__title js-scene-el">
+					Ваш бизнес процветает, <span class="hero__title-hl">когда процессы работают для Вас</span>
+				</div>
+
+				<div class="hero__bottom">
+					<div class="hero__container container container_wide">
+						<div class="presentation">
+							<div class="presentation__icon-wrap">
+								<a href="#" class="presentation__link">
+									<i class="icon icon-pdf"></i>
+								</a>
+							</div>
+							<div class="presentation__text-wrap">
+								<div class="presentation__title">DOBRO</div>
+								<div class="presentation__descr">Презентация компании 36 Кб</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="quote-screen js-scene">
+			<div class="quote-screen__bg-wrap">
+				<div class="quote-screen__bg-container container">
+					<picture class="quote-screen__bg-img-wrap">
+						<source srcset="img/woman-desktop.jpg" media="(min-width: 1000px)">
+							<img src="img/woman-tablet.jpg" alt="" class="quote-screen__bg-img">
+					</picture>
+				</div>
+			</div>
+			<div class="quote-screen__container container">
+				<div class="quote-screen__content">
+					<div class="quote-screen__info js-scene-el">
+						<div class="quote-screen__quote-wrap">
+							<div class="quote-screen__quote">Порядок в мыслях - порядок в жизни</div>
+							<div class="quote-screen__quote">Порядок в жизни - порядок в компании</div>
+							<div class="quote-screen__quote quote-screen__quote_bold">Порядок в компании - залог процветания</div>
+						</div>
+						<div class="quote-screen__button-wrap">
+							<span class="quote-screen__button-wrap-text">Научу организовывать процессы</span>
+							<a href="#bid" class="btn js-popup-link">
+								<span class="btn__text">Оставить заявку</span>
+							</a>
+						</div>
+					</div>
+					<div class="quote-screen__bottom">
+						<div class="quote-screen__name">Татьяна Сафина</div>
+						<div class="quote-screen__post">руководитель компании</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div id="scene_advantages" class="advantages-screen js-screen-video-bg">
+			<div class="advantages-screen__body">
+				<div class="advantages-screen__bg-wrap">
+					<picture class="advantages-screen__bg-img-wrap js-screen-video-bg-poster">
+						<source srcset="img/advantages-desktop.jpg" media="(min-width: 1000px)">
+							<source srcset="img/advantages-tablet.jpg" media="(min-width: 376px)">
+								<img src="img/advantages-mobile.jpg" alt="" class="advantages-screen__bg-img">
+					</picture>
+
+					<video loop="loop" muted="muted" autoplay="autoplay" poster="img/advantages-video-poster.jpg" class="video-bg js-screen-video-bg-player">
+						<source src="videos/mission.mp4" type="video/mp4">
+					</video>
+				</div>
+				<div class="advantages-screen__container container">
+					<div class="advantages-screen__title">
+						<span class="advantages-screen__title-hl">Создавая ДОБРО</span> – улучшаем процессы бесконечно
+					</div>
+
+					<ul class="advantages">
+						<li class="advantages__item js-progress-item" data-progress="85">
+							<div class="advantages__rate-wrap">
+								<div class="advantages__rate js-rate">0</div>
+
+								<svg class="advantages__svg circle-rating" width="130" height="130" viewBox="0 0 130 130">
+									<circle class="circle-rating__progress js-circle-progress" cx="65" cy="65" r="60" stroke="#0079c4" stroke-width="10" fill="transparent" transform="rotate(-90 65 65)" stroke-linecap="round" style="stroke-dasharray: 0, 380px; stroke-dashoffset: 0;">
+									</circle>
+								</svg>
+
+							</div>
+							<div class="advantages__descr">На&nbsp;85% улучшилось взаимодействие в&nbsp;коллективе после первого года работы с&nbsp;нами</div>
+						</li>
+						<li class="advantages__item js-progress-item" data-progress="60">
+							<div class="advantages__rate-wrap">
+								<div class="advantages__rate js-rate">0</div>
+
+								<svg class="advantages__svg circle-rating" width="130" height="130" viewBox="0 0 130 130">
+									<circle class="circle-rating__progress js-circle-progress" cx="65" cy="65" r="60" stroke="#0079c4" stroke-width="10" fill="transparent" transform="rotate(-90 65 65)" stroke-linecap="round" style="stroke-dasharray: 0, 380px; stroke-dashoffset: 0;">
+									</circle>
+								</svg>
+
+							</div>
+							<div class="advantages__descr">100% уровень сервиса, мы&nbsp;работаем для того чтобы совершенствовать ваш бизнес</div>
+						</li>
+						<li class="advantages__item js-progress-item" data-progress="95">
+							<div class="advantages__rate-wrap">
+								<div class="advantages__rate js-rate">0</div>
+
+								<svg class="advantages__svg circle-rating" width="130" height="130" viewBox="0 0 130 130">
+									<circle class="circle-rating__progress js-circle-progress" cx="65" cy="65" r="60" stroke="#0079c4" stroke-width="10" fill="transparent" transform="rotate(-90 65 65)" stroke-linecap="round" style="stroke-dasharray: 0, 380px; stroke-dashoffset: 0;">
+									</circle>
+								</svg>
+
+							</div>
+							<div class="advantages__descr">90% клиентов настолько довольны, что возвращаются к&nbsp;нам снова</div>
+						</li>
+					</ul>
+
+				</div>
+			</div>
+			<div class="advantages-screen__footer">
+				<div class="advantages-screen__footer-container container">
+					<div class="advantages-screen__stat-box js-stat-item" data-stat="7779">
+						<div class="advantages-screen__stat-number js-stat-number"></div>
+						<div class="advantages-screen__stat-info">Разработано
+							<br>более 7779 документов</div>
+					</div>
+					<div class="advantages-screen__stat-box js-stat-item" data-stat="2500">
+						<div class="advantages-screen__stat-number js-stat-number"></div>
+						<div class="advantages-screen__stat-info">Смоделировано
+							<br>более 2500 процессов</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div id="scene_processes" class="processes-screen">
+			<div class="processes-screen__bg container" style="background-image: url(../img/gears.svg)"></div>
+			<div class="processes-screen__container container">
+				<div class="tabs js-tabs">
+					<div class="tabs__menu-wrap">
+						<ul class="tabs__menu">
+
+							<li class="tabs__menu-item tabs__menu-item_current js-tab-item js-scene-stagger-el" data-content="process">
+								<i class="icon icon-process"></i>
+								<div class="tabs__menu-item-name">Процессы</div>
+							</li>
+
+							<li class="tabs__menu-item js-tab-item js-scene-stagger-el" data-content="project">
+								<i class="icon icon-project"></i>
+								<div class="tabs__menu-item-name">Проекты</div>
+							</li>
+
+							<li class="tabs__menu-item js-tab-item js-scene-stagger-el" data-content="control">
+								<i class="icon icon-control"></i>
+								<div class="tabs__menu-item-name">Контроллинг</div>
+							</li>
+
+							<li class="tabs__menu-item js-tab-item js-scene-stagger-el" data-content="diagnostic">
+								<i class="icon icon-diagnostic"></i>
+								<div class="tabs__menu-item-name">Диагностика</div>
+							</li>
+
+							<li class="tabs__menu-item js-tab-item js-scene-stagger-el" data-content="note">
+								<i class="icon icon-note"></i>
+								<div class="tabs__menu-item-name">SLA</div>
+							</li>
+
+							<li class="tabs__menu-item js-tab-item js-scene-stagger-el" data-content="support">
+								<i class="icon icon-support"></i>
+								<div class="tabs__menu-item-name">Поддержка</div>
+							</li>
+
+						</ul>
+					</div>
+					<div class="tabs__content-wrap js-scene-el">
+
+						<div id="process" class="tabs__content js-tab-content" style="">
+							<div class="processes-screen__content">
+								<div class="processes-screen__title">Процессы</div>
+								<div class="processes-screen__descr">
+									Строительство процветающего бизнеса – это создание бизнес-процессов, которые работают без вас. Мы поможем Вам построить эффективную действующую систему управления на основе процессного подхода
+								</div>
+								<a href="#popup_service" class="btn btn_icon btn_text-white js-popup-link">
+									<span class="btn__text">Состав услуги</span>
+									<i class="icon icon-arrow"></i>
+								</a>
+							</div>
+						</div>
+
+						<div id="project" class="tabs__content js-tab-content" style="display: none">
+							<div class="processes-screen__content">
+								<div class="processes-screen__title">Проекты</div>
+								<div class="processes-screen__descr">
+									Чтобы оставаться успешным нужно быть на шаг впереди всех остальных, для этого необходимы постоянные улучшения и новые проекты. Мы поможем Вам построить эффективную действующую систему проектного управления
+								</div>
+								<a href="#popup_service" class="btn btn_icon btn_text-white js-popup-link">
+									<span class="btn__text">Состав услуги</span>
+									<i class="icon icon-arrow"></i>
+								</a>
+							</div>
+						</div>
+
+						<div id="control" class="tabs__content js-tab-content" style="display: none">
+							<div class="processes-screen__content">
+								<div class="processes-screen__title">Контроллинг</div>
+								<div class="processes-screen__descr">
+									Строительство процветающего бизнеса – это создание бизнес-процессов, которые работают без вас. Мы поможем Вам построить эффективную действующую систему управления на основе процессного подхода
+								</div>
+								<a href="#popup_service" class="btn btn_icon btn_text-white js-popup-link">
+									<span class="btn__text">Состав услуги</span>
+									<i class="icon icon-arrow"></i>
+								</a>
+							</div>
+						</div>
+
+						<div id="diagnostic" class="tabs__content js-tab-content" style="display: none">
+							<div class="processes-screen__content">
+								<div class="processes-screen__title">Диагностика</div>
+								<div class="processes-screen__descr">
+									В условиях постоянных изменений бизнес-среды и быстрой скорости принятия бизнес-решений необходимо четкое понимание того, где сейчас ваша компания с точки зрения жизненного цикла, на каком этапе развития она находится....где причины а где следствия возникающих
+									проблем...и что делать дальше..?
+								</div>
+								<a href="#popup_service" class="btn btn_icon btn_text-white js-popup-link">
+									<span class="btn__text">Состав услуги</span>
+									<i class="icon icon-arrow"></i>
+								</a>
+							</div>
+						</div>
+
+						<div id="note" class="tabs__content js-tab-content" style="display: none">
+							<div class="processes-screen__content">
+								<div class="processes-screen__title">SLA</div>
+								<div class="processes-screen__descr">
+									Чтобы оставаться успешным нужно быть на шаг впереди всех остальных, для этого необходимы постоянные улучшения и новые проекты. Мы поможем Вам построить эффективную действующую систему проектного управления
+								</div>
+								<a href="#popup_service" class="btn btn_icon btn_text-white js-popup-link">
+									<span class="btn__text">Состав услуги</span>
+									<i class="icon icon-arrow"></i>
+								</a>
+							</div>
+						</div>
+
+						<div id="support" class="tabs__content js-tab-content" style="display: none">
+							<div class="processes-screen__content">
+								<div class="processes-screen__title">Поддержка</div>
+								<div class="processes-screen__descr">
+									В условиях постоянных изменений бизнес-среды и быстрой скорости принятия бизнес-решений необходимо четкое понимание того, где сейчас ваша компания с точки зрения жизненного цикла, на каком этапе развития она находится....где причины а где следствия возникающих
+									проблем...и что делать дальше..?
+								</div>
+								<a href="#popup_service" class="btn btn_icon btn_text-white js-popup-link">
+									<span class="btn__text">Состав услуги</span>
+									<i class="icon icon-arrow"></i>
+								</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div id="scene_advices" class="advices-screen">
+			<div class="advices-screen__container container">
+				<div class="advices-screen__title">
+					Практические <span class="advices-screen__title-hl">советы</span>
+				</div>
+
+
+				<div class="advices-screen__slider-wrap">
+					<div class="swiper-container advices-slider">
+						<div class="swiper-wrapper advices-slider__wrap">
+
+							<div class="swiper-slide advices-slider__slide">
+								<div class="advices-grid">
+
+
+									<div class="advices-grid__item advices-grid__item_mini">
+
+										<div class="advice advice_short js-scene-stagger-el">
+											<a href="#popup_advice" class="advice__link js-popup-link">
+												<div class="advice__col advice__col_info">
+													<div class="advice__content">
+														<div class="advice__date">12 сентября 2018</div>
+														<div class="advice__title">Советы по развитию Вашего бизнеса</div>
+														<div class="advice__descr">Ведущая инвестиционная компания России, входящая в «Альфа-Групп», один из крупнейших в России частных финансово-промышленных консорциумов</div>
+													</div>
+												</div>
+											</a>
+										</div>
+
+									</div>
+
+
+
+									<div class="advices-grid__item advices-grid__item_mini">
+
+										<div class="advice advice_short js-scene-stagger-el">
+											<a href="#popup_advice" class="advice__link js-popup-link">
+												<div class="advice__col advice__col_info">
+													<div class="advice__content">
+														<div class="advice__date">10 октября 2018</div>
+														<div class="advice__title">Советы для начинающих предпринимателей</div>
+														<div class="advice__descr">На предприятии объяснили, что ЕКАД для них важен: после того, как дорога сменит статус, весь северный обход вокруг Екатеринбурга вольется в федеральную дорожную сеть и подвергнется модернизации. А дорога Пермь — Екатеринбург — Тюмень станет
+															единым целым.</div>
+													</div>
+												</div>
+											</a>
+										</div>
+
+									</div>
+
+
+
+
+									<div class="advices-grid__item advices-grid__item_big">
+
+
+
+
+
+
+										<div class="advice js-scene-stagger-el">
+											<a href="#popup_advice" class="advice__link js-popup-link">
+												<div class="advice__col advice__col_image">
+													<img src="images/advice-01.jpg" alt="" class="advice__image">
+												</div>
+												<div class="advice__col advice__col_info">
+													<div class="advice__content">
+														<div class="advice__date">1 октября 2018</div>
+														<div class="advice__title">Как быстро и эффективно развить качество?</div>
+														<div class="advice__descr">Уралтрансбанк является одним из старейших уральских банков. Как указано на сайте компании, история банка начинается с 1947 года. Тогда с целью обслуживания предприятий Свердловской железной дороги было открыто Кагановическое отделение Свердловской
+															областной конторы Госбанка СССР, позже переименованное в Железнодорожное отделение.</div>
+													</div>
+												</div>
+											</a>
+										</div>
+
+
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide advices-slider__slide">
+								<div class="advices-grid">
+
+
+									<div class="advices-grid__item advices-grid__item_mini">
+
+										<div class="advice advice_short js-scene-stagger-el">
+											<a href="#popup_advice" class="advice__link js-popup-link">
+												<div class="advice__col advice__col_info">
+													<div class="advice__content">
+														<div class="advice__date">12 сентября 2018</div>
+														<div class="advice__title">Советы по развитию Вашего бизнеса</div>
+														<div class="advice__descr">Ведущая инвестиционная компания России, входящая в «Альфа-Групп», один из крупнейших в России частных финансово-промышленных консорциумов</div>
+													</div>
+												</div>
+											</a>
+										</div>
+
+									</div>
+
+
+
+									<div class="advices-grid__item advices-grid__item_mini">
+
+										<div class="advice advice_short js-scene-stagger-el">
+											<a href="#popup_advice" class="advice__link js-popup-link">
+												<div class="advice__col advice__col_info">
+													<div class="advice__content">
+														<div class="advice__date">1 октября 2018</div>
+														<div class="advice__title">Как быстро и эффективно развить качество?</div>
+														<div class="advice__descr">Уралтрансбанк является одним из старейших уральских банков. Как указано на сайте компании, история банка начинается с 1947 года. Тогда с целью обслуживания предприятий Свердловской железной дороги было открыто Кагановическое отделение Свердловской
+															областной конторы Госбанка СССР, позже переименованное в Железнодорожное отделение.</div>
+													</div>
+												</div>
+											</a>
+										</div>
+
+									</div>
+
+
+
+
+									<div class="advices-grid__item advices-grid__item_big">
+
+
+
+
+
+
+										<div class="advice js-scene-stagger-el">
+											<a href="#popup_advice" class="advice__link js-popup-link">
+												<div class="advice__col advice__col_image">
+													<img src="images/advice-02.jpg" alt="" class="advice__image">
+												</div>
+												<div class="advice__col advice__col_info">
+													<div class="advice__content">
+														<div class="advice__date">10 октября 2018</div>
+														<div class="advice__title">Советы для начинающих предпринимателей</div>
+														<div class="advice__descr">На предприятии объяснили, что ЕКАД для них важен: после того, как дорога сменит статус, весь северный обход вокруг Екатеринбурга вольется в федеральную дорожную сеть и подвергнется модернизации. А дорога Пермь — Екатеринбург — Тюмень станет
+															единым целым.</div>
+													</div>
+												</div>
+											</a>
+										</div>
+
+
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-slide advices-slider__slide">
+								<div class="advices-grid">
+
+
+									<div class="advices-grid__item advices-grid__item_mini">
+
+										<div class="advice advice_short js-scene-stagger-el">
+											<a href="#popup_advice" class="advice__link js-popup-link">
+												<div class="advice__col advice__col_info">
+													<div class="advice__content">
+														<div class="advice__date">1 октября 2018</div>
+														<div class="advice__title">Как быстро и эффективно развить качество?</div>
+														<div class="advice__descr">Уралтрансбанк является одним из старейших уральских банков. Как указано на сайте компании, история банка начинается с 1947 года. Тогда с целью обслуживания предприятий Свердловской железной дороги было открыто Кагановическое отделение Свердловской
+															областной конторы Госбанка СССР, позже переименованное в Железнодорожное отделение.</div>
+													</div>
+												</div>
+											</a>
+										</div>
+
+									</div>
+
+
+
+									<div class="advices-grid__item advices-grid__item_mini">
+
+										<div class="advice advice_short js-scene-stagger-el">
+											<a href="#popup_advice" class="advice__link js-popup-link">
+												<div class="advice__col advice__col_info">
+													<div class="advice__content">
+														<div class="advice__date">10 октября 2018</div>
+														<div class="advice__title">Советы для начинающих предпринимателей</div>
+														<div class="advice__descr">На предприятии объяснили, что ЕКАД для них важен: после того, как дорога сменит статус, весь северный обход вокруг Екатеринбурга вольется в федеральную дорожную сеть и подвергнется модернизации. А дорога Пермь — Екатеринбург — Тюмень станет
+															единым целым.</div>
+													</div>
+												</div>
+											</a>
+										</div>
+
+									</div>
+
+
+
+
+									<div class="advices-grid__item advices-grid__item_big">
+
+
+
+
+
+
+										<div class="advice js-scene-stagger-el">
+											<a href="#popup_advice" class="advice__link js-popup-link">
+												<div class="advice__col advice__col_image">
+													<img src="images/advice-03.jpg" alt="" class="advice__image">
+												</div>
+												<div class="advice__col advice__col_info">
+													<div class="advice__content">
+														<div class="advice__date">12 сентября 2018</div>
+														<div class="advice__title">Советы по развитию Вашего бизнеса</div>
+														<div class="advice__descr">Ведущая инвестиционная компания России, входящая в «Альфа-Групп», один из крупнейших в России частных финансово-промышленных консорциумов</div>
+													</div>
+												</div>
+											</a>
+										</div>
+
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="advices-screen__slider-nav-wrap">
+						<div class="advices-screen__slider-nav advices-screen__slider-nav_prev">
+							<i class="icon icon-prev"></i>
+						</div>
+						<div class="advices-screen__slider-nav advices-screen__slider-nav_next">
+							<i class="icon icon-next"></i>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+		<div class="feedback-screen js-scene">
+			<div class="feedback-screen__container container">
+
+				<div class="feedback-screen__form-border js-scene-el">
+					<div class="feedback-screen__form-inner" style="background-image: url(../img/cell.jpg)">
+						<div class="feedback-screen__content-holder">
+							<div class="feedback-screen__info">
+								<div class="feedback-screen__title">
+									Мы готовы к новым идеям <span class="feedback-screen__title-hl">и рады принести Вам пользу!</span>
+								</div>
+								<div class="feedback-screen__form-descr">
+									Заполните поля, нажмите кнопку «Отправить» и скоро мы сяжемся с Вами
+								</div>
+							</div>
+							<div class="feedback-screen__form-wrap">
+
+								<form action="/ajax/form-response.json" class="form">
+									<div class="form__field">
+										<div class="form__input-cover">
+											<input type="text" name="name" class="form__input required" placeholder="Имя">
+										</div>
+									</div>
+									<div class="form__field">
+										<div class="form__input-cover">
+											<input type="email" name="email" class="form__input form__input_email required" placeholder="E-mail">
+										</div>
+									</div>
+									<div class="form__field">
+										<div class="form__input-cover">
+											<input type="text" name="phone" class="form__input form__input_phone js-input-mask" data-mask="+7 (000) 000-00-00" placeholder="Телефон">
+										</div>
+									</div>
+									<div class="form__field form__field_btn-wrap">
+										<button type="submit" class="btn">
+											<span class="btn__text">Отправить</span>
+										</button>
+									</div>
+									<div class="form__bottom">
+										<div class="form__privacy-text">
+											Нажимая «Отправить», Вы соглашаетесь с <a href="#" target="_blank" class="form__privacy-link">политикой конфиденциальности</a>
+										</div>
+									</div>
+								</form>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+		<div id="overlay" class="overlay"></div>
+
+
+		<div id="menu" class="menu compensate-for-scrollbar">
+			<div class="menu__inner">
+				<div class="menu__head">
+
+					<a href="#" class="menu__logo-link">
+						<img src="img/logo.svg" alt="" class="menu__logo">
+					</a>
+
+
+					<div class="menu__contacts">
+						<a href="tel:+79603689644" class="menu__phone">
+          +7 (960) <span class="menu__phone menu__phone_bold">368-96-44</span>
+        </a>
+						<a href="#call_back" class="btn btn_icon btn_icon-blue js-popup-link">
+
+							<i class="icon icon-phone"></i>
+
+							<span class="btn__text">Позвоните мне!</span>
+						</a>
+					</div>
+
+
+
+					<div class="menu__hamburger-wrap">
+						<div id="menu_close" class="hamburger hamburger_close">
+							<div class="hamburger__icon-wrap">
+								<div class="hamburger__icon-line"></div>
+								<div class="hamburger__icon-line"></div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+				<div class="menu__body">
+					<div class="menu__body-inner">
+						<div class="menu__body-scroll">
+
+							<nav class="menu-nav">
+								<ul class="menu-nav__list">
+
+									<li class="menu-nav__item">
+										<a href="#" class="menu-nav__link">Главная</a>
+									</li>
+
+									<li class="menu-nav__item">
+										<a href="#" class="menu-nav__link">О компании</a>
+									</li>
+
+									<li class="menu-nav__item">
+										<a href="#" class="menu-nav__link">Услуги</a>
+									</li>
+
+									<li class="menu-nav__item">
+										<a href="#" class="menu-nav__link">Новости</a>
+									</li>
+
+									<li class="menu-nav__item">
+										<a href="#" class="menu-nav__link">Контакты</a>
+									</li>
+
+								</ul>
+							</nav>
+
+						</div>
+					</div>
+
+				</div>
+				<div class="menu__footer">
+
+
+					<div class="menu__contacts">
+						<a href="tel:+79603689644" class="menu__phone">
+          +7 (960) <span class="menu__phone menu__phone_bold">368-96-44</span>
+        </a>
+						<a href="#call_back" class="btn btn_icon btn_icon-blue js-popup-link">
+
+							<i class="icon icon-phone"></i>
+
+							<span class="btn__text">Позвоните мне!</span>
+						</a>
+					</div>
+
+
+
+					<ul class="social-menu">
+
+						<li class="social-menu__item">
+							<a href="#" class="social-menu__link">
+								<i class="icon icon-linkedin"></i>
+							</a>
+						</li>
+
+						<li class="social-menu__item">
+							<a href="#" class="social-menu__link">
+								<i class="icon icon-fb"></i>
+							</a>
+						</li>
+
+						<li class="social-menu__item">
+							<a href="#" class="social-menu__link">
+								<i class="icon icon-tw"></i>
+							</a>
+						</li>
+
+					</ul>
+
+
+				</div>
+			</div>
+		</div>
+
+
+
+		<div id="bid" class="popup popup_std hidden-element">
+			<div class="popup__inner-wrap">
+				<div class="popup__content-wrap">
+					<button class="popup__close js-popup-close">
+						<i class="icon icon-menu-close"></i>
+					</button>
+					<div class="popup__title">Оставить заявку</div>
+					<div class="popup__sub-title">Заполните поля и нажмите «Отправить»</div>
+					<div class="popup__content">
+
+						<form action="/ajax/form-response.json" class="form">
+							<div class="form__field">
+								<div class="form__input-cover">
+									<input type="text" name="name" class="form__input required" placeholder="Имя">
+								</div>
+							</div>
+							<div class="form__field">
+								<div class="form__input-cover">
+									<input type="email" name="email" class="form__input form__input_email required" placeholder="E-mail">
+								</div>
+							</div>
+							<div class="form__field">
+								<div class="form__input-cover">
+									<input type="text" name="phone" class="form__input form__input_phone js-input-mask" data-mask="+7 (000) 000-00-00" placeholder="Телефон">
+								</div>
+							</div>
+							<div class="form__field form__field_btn-wrap">
+								<button type="submit" class="btn">
+									<span class="btn__text">Отправить</span>
+								</button>
+							</div>
+							<div class="form__bottom">
+								<div class="form__privacy-text">
+									Нажимая «Отправить», Вы соглашаетесь с <a href="#" target="_blank" class="form__privacy-link">политикой конфиденциальности</a>
+								</div>
+							</div>
+						</form>
+
+					</div>
+					<div class="popup__logo">
+						<i class="icon icon-popup-logo"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="call_back" class="popup popup_std hidden-element">
+			<div class="popup__inner-wrap">
+				<div class="popup__content-wrap">
+					<button class="popup__close js-popup-close">
+						<i class="icon icon-menu-close"></i>
+					</button>
+					<div class="popup__title">Заказать обратный звонок</div>
+					<div class="popup__sub-title">Заполните поля и нажмите «Отправить»</div>
+					<div class="popup__content">
+
+						<form action="/ajax/form-response.json" class="form">
+							<div class="form__field">
+								<div class="form__input-cover">
+									<input type="text" name="name" class="form__input required" placeholder="Имя">
+								</div>
+							</div>
+							<div class="form__field">
+								<div class="form__input-cover">
+									<input type="text" name="phone" class="form__input form__input_phone js-input-mask" data-mask="+7 (000) 000-00-00" placeholder="Телефон">
+								</div>
+							</div>
+							<div class="form__field form__field_btn-wrap">
+								<button type="submit" class="btn">
+									<span class="btn__text">Отправить</span>
+								</button>
+							</div>
+							<div class="form__bottom">
+								<div class="form__privacy-text">
+									Нажимая «Отправить», Вы соглашаетесь с <a href="#" target="_blank" class="form__privacy-link">политикой конфиденциальности</a>
+								</div>
+							</div>
+						</form>
+
+					</div>
+					<div class="popup__logo">
+						<i class="icon icon-popup-logo"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="popup_error" class="popup popup_error popup_centered-content hidden-element">
+			<div class="popup__inner-wrap">
+				<div class="popup__content-wrap">
+					<button class="popup__close js-popup-close">
+						<i class="icon icon-menu-close"></i>
+					</button>
+					<div class="popup__title">Ошибка!</div>
+					<div class="popup__sub-title">Что-то пошло не так, пожалуйста, повторите зпрос позже.</div>
+					<div class="popup__content">
+						<button class="btn btn_short js-popup-close">
+							<span class="btn__text">Ок</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="popup_success" class="popup popup_success popup_centered-content hidden-element">
+			<div class="popup__inner-wrap">
+				<div class="popup__content-wrap">
+					<button class="popup__close js-popup-close">
+						<i class="icon icon-menu-close"></i>
+					</button>
+					<div class="popup__title">Спасибо!</div>
+					<div class="popup__sub-title">Ваша заявка успешно отправлена!</div>
+					<div class="popup__content">
+						<button class="btn btn_short js-popup-close">
+							<span class="btn__text">Ок</span>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="popup_service" class="popup popup_std popup_info hidden-element">
+			<div class="popup__inner-wrap">
+				<div class="popup__content-wrap">
+					<button class="popup__close js-popup-close">
+						<i class="icon icon-menu-close"></i>
+					</button>
+					<div class="popup__content">
+						<div class="info-box">
+							<h2>Процессы</h2>
+							<p>Строительство процветающего бизнеса – это создание бизнес-процессов, которые работают без вас. Мы поможем Вам построить эффективную действующую систему управления на основе процессного подхода.</p>
+							<p><b>Состав услуги:</b>
+							</p>
+							<ul>
+								<li>Организация Процессного офиса</li>
+								<li>Моделирование процессов</li>
+								<li>Разработка нормативно-методической документации по процессам</li>
+								<li>Определение процессных показателей и встраивание их в систему показателей и отчетности компании</li>
+								<li>Организация системы внутренних аудитов</li>
+								<li>Моделирование организационных структур и штатного расписания, матриц ответственности и матриц полномочий</li>
+								<li>Автоматизация процессов</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="popup_advice" class="popup popup_std popup_info popup_advice hidden-element">
+			<div class="popup__inner-wrap">
+				<div class="popup__content-wrap">
+					<button class="popup__close js-popup-close">
+						<i class="icon icon-menu-close"></i>
+					</button>
+					<div class="popup__content">
+						<div class="advice advice_popup">
+							<div class="advice__date">1 октября 2018</div>
+							<div class="advice__title">Как быстро и эффективно развить качество?</div>
+							<div class="advice__descr">
+								<div class="info-box">
+									<p>Ведущая инвестиционная компания России, входящая в «Альфа-Групп», один из крупнейших в России частных финансово-промышленных консорциумов.</p>
+									<p>«Альфа-Групп», один из крупнейших в России частных финансово-промышленных консорциумов.</p>
+									<p>Ведущая инвестиционная компания России, входящая в «Альфа-Групп», один из крупнейших в России частных финансово-промышленных консорциумов.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<footer class="footer">
+			<div class="footer__top">
+				<div class="footer__container footer__container_top container">
+
+
+					<nav class="footer-nav">
+						<ul class="footer-nav__list">
+
+							<li class="footer-nav__item">
+								<a href="#" class="footer-nav__link">Главная</a>
+							</li>
+
+							<li class="footer-nav__item">
+								<a href="#" class="footer-nav__link">О компании</a>
+							</li>
+
+							<li class="footer-nav__item">
+								<a href="#" class="footer-nav__link">Услуги</a>
+							</li>
+
+							<li class="footer-nav__item">
+								<a href="#" class="footer-nav__link">Новости</a>
+							</li>
+
+							<li class="footer-nav__item">
+								<a href="#" class="footer-nav__link">Контакты</a>
+							</li>
+
+						</ul>
+					</nav>
+
+
+
+					<ul class="social-menu">
+
+						<li class="social-menu__item">
+							<a href="#" class="social-menu__link">
+								<i class="icon icon-linkedin"></i>
+							</a>
+						</li>
+
+						<li class="social-menu__item">
+							<a href="#" class="social-menu__link">
+								<i class="icon icon-fb"></i>
+							</a>
+						</li>
+
+						<li class="social-menu__item">
+							<a href="#" class="social-menu__link">
+								<i class="icon icon-tw"></i>
+							</a>
+						</li>
+
+					</ul>
+
+
+					<div class="footer__contacts-wrap">
+						<a href="#call_back" class="btn btn_icon btn_icon-blue btn_footer js-popup-link">
+							<i class="icon icon-phone"></i>
+							<span class="btn__text">Заказать звонок</span>
+						</a>
+						<div class="footer__contacts">
+							<a href="tel:+79603689644" class="footer__phone">+7 (960) <span class="footer__phone_bold">368-96-44</span></a>
+							<a href="email:kir_tatyana@mail.ru" class="footer__email">kir_tatyana@mail.ru</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="footer__middle">
+				<div class="footer__container footer__container_middle container">
+
+					<div class="footer__copyright-wrap">
+						<div class="footer__copyright">DOBRO © 2018</div>
+					</div>
+
+					<div class="footer__contacts-wrap">
+						<a href="#call_back" class="btn btn_icon btn_icon-blue btn_footer js-popup-link">
+							<i class="icon icon-phone"></i>
+							<span class="btn__text">Заказать звонок</span>
+						</a>
+						<div class="footer__contacts">
+							<a href="tel:+79603689644" class="footer__phone">+7 (960) <span class="footer__phone_bold">368-96-44</span></a>
+							<a href="email:kir_tatyana@mail.ru" class="footer__email">kir_tatyana@mail.ru</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__container footer__container_bottom container">
+
+					<div class="footer__copyright-wrap">
+						<div class="footer__copyright">DOBRO © 2018</div>
+						<a href="#" target="_blank" class="footer__privacy">Политика конфиденциальности</a>
+					</div>
+
+					<div class="footer__bottom-title">Добро - это просто!</div>
+
+					<div class="footer__developers">
+						Разработано в <a href="#" target="_blank" class="footer__developers-link">idem.agency</a>
+					</div>
+
+				</div>
+			</div>
+		</footer>
+
+
+	</div>
+
+	<link rel="stylesheet" href="css/main.css?1540901805">
+
+
+	<script src="scripts/app.js?1540901805"></script>
+
+
+</body>
+
+</html>
