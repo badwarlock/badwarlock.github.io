@@ -1,9 +1,0 @@
-[
-  {
-    "status": "success"
-  },
-  {
-    "status": "error",
-    "message": "Ошибка: Неверный ввод"
-  }
-]
